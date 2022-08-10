@@ -86,18 +86,6 @@ class ViewController: UIViewController, WKUIDelegate, UISearchBarDelegate, WKNav
         }
     }
     
-    func loadWebView(){
-        self.webView.addObserver(self, forKeyPath: "URL", options: .new, context: nil)
-        self.webView.addObserver(self, forKeyPath: "estimatedProgress", options: .new, context: nil)
-        
-        // Load Web View
-        guard let url = URL(string: "https://www.google.com") else {return}
-        let request = URLRequest(url: url)
-        webView?.load(request)
-        
-        webViewList[webView] = currentPageURL
-    }
-    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         print("loading to segue")
         

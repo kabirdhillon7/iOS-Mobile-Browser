@@ -307,7 +307,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SBCRL8SBBK;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "iOS ACME Mobile Browser/Info.plist";
+				INFOPLIST_FILE = "iOS Mobile Browser/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "ACME Browser";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -319,7 +319,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "kabir.iOS-ACME-Mobile-Browser";
+				PRODUCT_BUNDLE_IDENTIFIER = "kabir.iOS-Mobile-Browser";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -336,7 +336,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SBCRL8SBBK;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "iOS ACME Mobile Browser/Info.plist";
+				INFOPLIST_FILE = "iOS Mobile Browser/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "ACME Browser";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -348,7 +348,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "kabir.iOS-ACME-Mobile-Browser";
+				PRODUCT_BUNDLE_IDENTIFIER = "kabir.iOS-Mobile-Browser";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
