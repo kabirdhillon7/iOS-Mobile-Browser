@@ -3,7 +3,6 @@
 Web Browser is an app that allows users to load web pages using WKWebView.
 
 ## User Stories
-`TODO://` In the **User Stories section below**, add an `x` in the `-[ ]` like this `- [x]` for any user story you complete. (🚫 Remove this paragraph after checking off completed user stories)
 
 ### Features
 - [X] URL entry field using Bookmark
@@ -26,14 +25,10 @@ For the bookmarks, I created a new view with table view which will diplay all bo
 
 For the tabs, I choose to store the WKWebViews using an array, so that we are able to access and store them easily. To access a tab, we use a similar approach with a tableview like th bookmarks.
 
-#### BONUS
-- [ ] (2pt) User can view the app on various device sizes and orientations.
-- [ ] (1pt) Run your app on a real device.
 
 ### App Walkthrough GIF
-`TODO://` Add the URL to your animated app walkthough `gif` in the image tag below, `YOUR_GIF_URL_HERE`. Make sure the gif actually renders and animates when viewing this README. (🚫 Remove this paragraph after after adding gif)
 
-<img src="YOUR_GIF_URL_HERE" width=250><br>
+<img src="https://github.com/kabirdhillon7/iOS-Mobile-Browser/blob/main/iOS%20Mobile%20Browser/web-browser-walkthrough.gif" width=250><br>
 
 ### Notes
 Describe any challenges encountered while building the app.
