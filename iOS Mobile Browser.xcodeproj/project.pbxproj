@@ -49,7 +49,7 @@
 		4886CBE4288CAF7500CA7A09 = {
 			isa = PBXGroup;
 			children = (
-				4886CBEF288CAF7500CA7A09 /* iOS ACME Mobile Browser */,
+				4886CBEF288CAF7500CA7A09 /* iOS Mobile Browser */,
 				4886CBEE288CAF7500CA7A09 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -62,7 +62,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4886CBEF288CAF7500CA7A09 /* iOS ACME Mobile Browser */ = {
+		4886CBEF288CAF7500CA7A09 /* iOS Mobile Browser */ = {
 			isa = PBXGroup;
 			children = (
 				4886CBF0288CAF7500CA7A09 /* AppDelegate.swift */,
@@ -78,7 +78,7 @@
 				483ACE342898F2D900E720EF /* TabCell.swift */,
 				48D53500289A32F800F845C1 /* Readme.md */,
 			);
-			path = "iOS ACME Mobile Browser";
+			path = "iOS Mobile Browser";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
