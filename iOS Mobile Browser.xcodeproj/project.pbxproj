@@ -7,16 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		483ACE332898F24F00E720EF /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483ACE322898F24F00E720EF /* TabViewController.swift */; };
+		483ACE352898F2D900E720EF /* TabCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483ACE342898F2D900E720EF /* TabCell.swift */; };
 		4886CBF1288CAF7500CA7A09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4886CBF0288CAF7500CA7A09 /* AppDelegate.swift */; };
 		4886CBF3288CAF7500CA7A09 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4886CBF2288CAF7500CA7A09 /* SceneDelegate.swift */; };
 		4886CBF5288CAF7500CA7A09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4886CBF4288CAF7500CA7A09 /* ViewController.swift */; };
 		4886CBF8288CAF7500CA7A09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4886CBF6288CAF7500CA7A09 /* Main.storyboard */; };
 		4886CBFA288CAF7600CA7A09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4886CBF9288CAF7600CA7A09 /* Assets.xcassets */; };
 		4886CBFD288CAF7600CA7A09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4886CBFB288CAF7600CA7A09 /* LaunchScreen.storyboard */; };
+		48D2ADDF2898838E001EA453 /* BookmarkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D2ADDE2898838E001EA453 /* BookmarkViewController.swift */; };
+		48D2ADE128988465001EA453 /* BookmarkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D2ADE028988465001EA453 /* BookmarkCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4886CBED288CAF7500CA7A09 /* iOS ACME Mobile Browser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS ACME Mobile Browser.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		483ACE322898F24F00E720EF /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		483ACE342898F2D900E720EF /* TabCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabCell.swift; sourceTree = "<group>"; };
+		4886CBED288CAF7500CA7A09 /* iOS Mobile Browser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Mobile Browser.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4886CBF0288CAF7500CA7A09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4886CBF2288CAF7500CA7A09 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4886CBF4288CAF7500CA7A09 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +30,9 @@
 		4886CBF9288CAF7600CA7A09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4886CBFC288CAF7600CA7A09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4886CBFE288CAF7600CA7A09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48D2ADDE2898838E001EA453 /* BookmarkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkViewController.swift; sourceTree = "<group>"; };
+		48D2ADE028988465001EA453 /* BookmarkCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkCell.swift; sourceTree = "<group>"; };
+		48D53500289A32F800F845C1 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +57,7 @@
 		4886CBEE288CAF7500CA7A09 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4886CBED288CAF7500CA7A09 /* iOS ACME Mobile Browser.app */,
+				4886CBED288CAF7500CA7A09 /* iOS Mobile Browser.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -63,6 +72,11 @@
 				4886CBF9288CAF7600CA7A09 /* Assets.xcassets */,
 				4886CBFB288CAF7600CA7A09 /* LaunchScreen.storyboard */,
 				4886CBFE288CAF7600CA7A09 /* Info.plist */,
+				48D2ADDE2898838E001EA453 /* BookmarkViewController.swift */,
+				48D2ADE028988465001EA453 /* BookmarkCell.swift */,
+				483ACE322898F24F00E720EF /* TabViewController.swift */,
+				483ACE342898F2D900E720EF /* TabCell.swift */,
+				48D53500289A32F800F845C1 /* Readme.md */,
 			);
 			path = "iOS ACME Mobile Browser";
 			sourceTree = "<group>";
@@ -70,9 +84,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4886CBEC288CAF7500CA7A09 /* iOS ACME Mobile Browser */ = {
+		4886CBEC288CAF7500CA7A09 /* iOS Mobile Browser */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4886CC01288CAF7600CA7A09 /* Build configuration list for PBXNativeTarget "iOS ACME Mobile Browser" */;
+			buildConfigurationList = 4886CC01288CAF7600CA7A09 /* Build configuration list for PBXNativeTarget "iOS Mobile Browser" */;
 			buildPhases = (
 				4886CBE9288CAF7500CA7A09 /* Sources */,
 				4886CBEA288CAF7500CA7A09 /* Frameworks */,
@@ -82,9 +96,9 @@
 			);
 			dependencies = (
 			);
-			name = "iOS ACME Mobile Browser";
+			name = "iOS Mobile Browser";
 			productName = "iOS ACME Mobile Browser";
-			productReference = 4886CBED288CAF7500CA7A09 /* iOS ACME Mobile Browser.app */;
+			productReference = 4886CBED288CAF7500CA7A09 /* iOS Mobile Browser.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +116,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4886CBE8288CAF7500CA7A09 /* Build configuration list for PBXProject "iOS ACME Mobile Browser" */;
+			buildConfigurationList = 4886CBE8288CAF7500CA7A09 /* Build configuration list for PBXProject "iOS Mobile Browser" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +129,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4886CBEC288CAF7500CA7A09 /* iOS ACME Mobile Browser */,
+				4886CBEC288CAF7500CA7A09 /* iOS Mobile Browser */,
 			);
 		};
 /* End PBXProject section */
@@ -138,6 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				483ACE332898F24F00E720EF /* TabViewController.swift in Sources */,
+				48D2ADE128988465001EA453 /* BookmarkCell.swift in Sources */,
+				483ACE352898F2D900E720EF /* TabCell.swift in Sources */,
+				48D2ADDF2898838E001EA453 /* BookmarkViewController.swift in Sources */,
 				4886CBF5288CAF7500CA7A09 /* ViewController.swift in Sources */,
 				4886CBF1288CAF7500CA7A09 /* AppDelegate.swift in Sources */,
 				4886CBF3288CAF7500CA7A09 /* SceneDelegate.swift in Sources */,
@@ -290,6 +308,7 @@
 				DEVELOPMENT_TEAM = SBCRL8SBBK;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS ACME Mobile Browser/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "ACME Browser";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -318,6 +337,7 @@
 				DEVELOPMENT_TEAM = SBCRL8SBBK;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS ACME Mobile Browser/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "ACME Browser";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -339,7 +359,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4886CBE8288CAF7500CA7A09 /* Build configuration list for PBXProject "iOS ACME Mobile Browser" */ = {
+		4886CBE8288CAF7500CA7A09 /* Build configuration list for PBXProject "iOS Mobile Browser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4886CBFF288CAF7600CA7A09 /* Debug */,
@@ -348,7 +368,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4886CC01288CAF7600CA7A09 /* Build configuration list for PBXNativeTarget "iOS ACME Mobile Browser" */ = {
+		4886CC01288CAF7600CA7A09 /* Build configuration list for PBXNativeTarget "iOS Mobile Browser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4886CC02288CAF7600CA7A09 /* Debug */,
